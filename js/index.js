@@ -12,6 +12,9 @@ const ul = document.querySelector('ul');
 let counter = 0; 
 
 while (counter < list.length) {
-    ul.innerHTML +=  `<li>${list[counter]}</li>`
+    const li = document.createElement('li');
+    li.innerHTML = list[counter];
+    ul.appendChild(li);
+    
     counter++;
 }
