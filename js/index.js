@@ -18,3 +18,9 @@ while (counter < list.length) {
     
     counter++;
 }
+
+/* for (ingredients in list){
+    const li = document.createElement('li');
+    li.innerHTML = list[ingredients];
+    ul.appendChild(li);
+} */
