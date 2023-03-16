@@ -19,3 +19,4 @@ while (counter < list.length) {
 /* for (ingredients in list){
      ul.append(createChild('li', '', list[ingredients]));
 } */
+

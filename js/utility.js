@@ -17,8 +17,8 @@ function createChild(tagName, classes, text) {
 }
 
 function addClass(element, classes) {
-  for (_class in classes) {
-    element.classList.toggle(classes[_class]);
+  for (const _class of classes) {
+    element.classList.toggle(_class);
   }
 }
 
