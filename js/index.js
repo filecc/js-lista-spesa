@@ -12,15 +12,10 @@ const ul = document.querySelector('ul');
 let counter = 0; 
 
 while (counter < list.length) {
-    const li = document.createElement('li');
-    li.innerHTML = list[counter];
-    ul.appendChild(li);
-    
+    ul.append(createChild('li', '', list[counter]))
     counter++;
 }
 
 /* for (ingredients in list){
-    const li = document.createElement('li');
-    li.innerHTML = list[ingredients];
-    ul.appendChild(li);
+     ul.append(createChild('li', '', list[ingredients]));
 } */
